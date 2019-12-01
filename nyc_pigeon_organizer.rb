@@ -9,4 +9,5 @@ def nyc_pigeon_organizer(data)
         end
         
         if !result_hash[name][key]
+          result_hash[name][key] = [] 
 end
